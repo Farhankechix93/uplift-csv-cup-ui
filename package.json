@@ -1,0 +1,26 @@
+{
+  "name": "uplift-csv-cup-ui",
+  "version": "1.0.0",
+  "author": "Adam Harrington <adam.d.harrington@gmail.com> (http://adamharrington.eu)",
+  "description": "A GUI CSV processor for transforming payment logs from PayPal or Stripe (or others if extended) into Engaging Networks transaction imports.",
+  "keywords": ["Engaging Networks", "CSV Processing", "Stripe"],
+  "license": "ISC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "node ./node_modules/electron-packager/cli.js ./ 'UpliftCUP' --platform=win32 --arch=x64 --out ./dist --version 0.36.9 --overwrite --icon=./img/icon.png",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamdharrington/uplift-csv-cup-ui.git"
+  },
+  "dependencies": {
+    "jquery": "^2.0.0",
+    "uplift-csv-cup": "^1.0.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.2.1",
+    "electron-prebuilt": "^0.36.0"
+  }
+}

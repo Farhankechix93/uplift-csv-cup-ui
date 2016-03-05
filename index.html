@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Uplift Cup - Format donation CSVs for upload to Engaging Networks</title>
+    <link href="ui.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header"><a class="close-button">X</a></div>
+    <h1>Uplift Cup</h1>
+    <h2>Format donation CSVs for upload to Engaging Networks</h2>
+    <div class="page-wrap">
+      <div id="choose-files" class="page in">
+        <h3>Step 1: Select the file to import.</h3>
+        <p class="notify"></p>
+        <div class="dropper">
+          <p>Drop file here</p>
+        </div>
+        <h3>Step 2: Choose where the created files should be put.</h3>
+        <div class="dirs">
+          <div class="dir-output">none</div>
+          <button id="choose-dir">select output directory</button>
+        </div>
+        <h3>Step 3: Stripe or Paypal.</h3>
+        <div id="gateway">
+          <label for="gateway">Select the source of the transactions</label>
+          <p>
+            <div class="radio-option"><input type="radio" name="gateway" value="Stripe" checked />Stripe</div>
+            <div class="radio-option"><input type="radio" name="gateway" value="PayPal" />PayPal</div>
+          </p>
+        </div>
+        <div class="buttons">
+          <button class="reset">Clear</button>
+          <button class="next" disabled>Process</button>
+        </div>
+      </div>
+      <div id="processing-files" class="page">
+        <p class="notify">Now processing your transactions</p>
+        <div class="buttons">
+          <button class="reset">Next</button>
+          <button class="open-dir">Go to Files</button>
+        </div>
+      </div>
+    </div>
+    <script src="ui.js"></script>
+  </body>
+</html>
