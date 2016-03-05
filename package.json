@@ -1,9 +1,13 @@
 {
   "name": "uplift-csv-cup-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Adam Harrington <adam.d.harrington@gmail.com> (http://adamharrington.eu)",
   "description": "A GUI CSV processor for transforming payment logs from PayPal or Stripe (or others if extended) into Engaging Networks transaction imports.",
-  "keywords": ["Engaging Networks", "CSV Processing", "Stripe"],
+  "keywords": [
+    "Engaging Networks",
+    "CSV Processing",
+    "Stripe"
+  ],
   "license": "ISC",
   "main": "main.js",
   "scripts": {
