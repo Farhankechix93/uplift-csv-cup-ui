@@ -19,7 +19,8 @@ function createWindow () {
     toolbar: false,
     'accept-first-mouse': true,
     transparent: true,
-    'auto-hide-menu-bar': true
+    'auto-hide-menu-bar': true,
+    icon:'img/UpliftCSVCUPIcon.png.ico'
   });
   mainWindow.setMenuBarVisibility(false);
 
