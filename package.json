@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "jquery": "^2.0.0",
-    "uplift-csv-cup": "^1.0.0"
+    "uplift-csv-cup": "^1.0.2"
   },
   "devDependencies": {
     "electron-packager": "^5.2.1",
