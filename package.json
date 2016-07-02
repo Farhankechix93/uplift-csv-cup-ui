@@ -1,6 +1,6 @@
 {
   "name": "uplift-csv-cup-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Adam Harrington <adam.d.harrington@gmail.com> (http://adamharrington.eu)",
   "description": "A GUI CSV processor for transforming payment logs from PayPal or Stripe (or others if extended) into Engaging Networks transaction imports.",
   "keywords": [
@@ -12,9 +12,9 @@
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
-    "package": "node ./node_modules/electron-packager/cli.js ./ UpliftCUP --platform=win32 --arch=x64 --out ./dist --version 0.36.9 --overwrite --icon=./img/UpliftCSVCUPIcon.png.ico",
-    "package-mac": "node ./node_modules/electron-packager/cli.js ./ UpliftCUP --platform=darwin --arch=x64 --out ./dist --version 0.36.9 --overwrite --icon=./img/UpliftCSVCUPIcon.png.icos",
-    "package-all": "node ./node_modules/electron-packager/cli.js ./ UpliftCUP --all --out ./dist --version 0.36.9 --overwrite --icon=./img/UpliftCSVCUPIcon.png.ico",
+    "package": "node ./node_modules/electron-packager/cli.js ./ UpliftCUP --platform=win32 --arch=x64 --out ./dist --version 1.2.5 --overwrite --icon=./img/UpliftCSVCUPIcon.png.ico",
+    "package-mac": "node ./node_modules/electron-packager/cli.js ./ UpliftCUP --platform=darwin --arch=x64 --out ./dist --version 1.2.5 --overwrite --icon=./img/UpliftCSVCUPIcon.png.icos",
+    "package-all": "node ./node_modules/electron-packager/cli.js ./ UpliftCUP --all --out ./dist --version 1.2.5 --overwrite --icon=./img/UpliftCSVCUPIcon.png.ico",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,10 +23,10 @@
   },
   "dependencies": {
     "jquery": "^2.0.0",
-    "uplift-csv-cup": "^1.0.4"
+    "uplift-csv-cup": "^1.0.5"
   },
   "devDependencies": {
-    "electron-packager": "^5.2.1",
-    "electron-prebuilt": "^0.36.0"
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.2.5"
   }
 }
